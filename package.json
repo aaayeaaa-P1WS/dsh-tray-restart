@@ -1,6 +1,6 @@
 {
   "name": "@aaayeaaa-p1ws/dsh-tray-restart",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "给 DeepSeek Harness 桌面端托盘右键菜单加一条「重启 DeepSeek Harness」：等长补丁 app.asar 里的托盘菜单，应用升级后自动补回。Adds a \"Restart\" item to the DSH desktop tray menu.",
   "keywords": [
