@@ -1,4 +1,4 @@
 - insert:
     - id: tray-restart
-      name: 'dsh-tray-restart'
+      name: '@aaayeaaa-p1ws/dsh-tray-restart'
       config: {}

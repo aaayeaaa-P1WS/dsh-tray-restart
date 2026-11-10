@@ -1,5 +1,7 @@
 # dsh-tray-restart
 
+> npm 包名：`@aaayeaaa-p1ws/dsh-tray-restart`（`dsh-tray-restart` 这个无前缀名字被别的作者先占了）
+
 给 **DeepSeek Harness 桌面端**的托盘右键菜单加一条 **「重启 DeepSeek Harness」**。
 
 DSH 桌面端的托盘图标右键原本只有「打开 / 退出」两项，改了插件想重载、或者开久了想重开，只能退出再双击一次图标。装上这个插件，菜单里就多一条「重启 DeepSeek Harness」：
@@ -20,14 +22,20 @@ DSH 桌面端的托盘图标右键原本只有「打开 / 退出」两项，改�
 **命令行**：
 
 ```bash
-dsh plugin install dsh-tray-restart
+dsh plugin add @aaayeaaa-p1ws/dsh-tray-restart
+```
+
+或者直接从 GitHub 装（还没发版时用）：
+
+```bash
+dsh plugin add github:aaayeaaa-P1WS/dsh-tray-restart
 ```
 
 **本地 link**（开发用）：
 
 ```jsonc
 // ~/.dsh/profiles/desktop/package.json
-"dependencies": { "dsh-tray-restart": "link:C:/path/to/dsh-tray-restart" }
+"dependencies": { "@aaayeaaa-p1ws/dsh-tray-restart": "link:C:/path/to/dsh-tray-restart" }
 ```
 
 装完重启 DSH，右键托盘图标就能看到「重启 DeepSeek Harness」。
